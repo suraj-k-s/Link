@@ -1,0 +1,28 @@
+.ExistingCase{
+    padding: 10px 220px;
+}
+.caseContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.case{
+    margin: 15px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    
+    div{
+        padding: 10px;
+    }
+}
+.cStatus{
+    height: 18px;
+    width: 18px;
+    
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.viewbtn{
+    display: flex;
+    justify-content: space-between;
+}

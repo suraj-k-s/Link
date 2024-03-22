@@ -1,0 +1,10 @@
+.table {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  .tableCategory {
+    display: flex;
+    width: 700px;
+  }
+}

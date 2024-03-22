@@ -1,0 +1,15 @@
+.case-details{
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+   
+}
+.heading-case{
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    display: flex;
+}

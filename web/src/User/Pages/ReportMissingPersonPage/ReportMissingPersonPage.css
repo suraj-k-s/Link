@@ -1,0 +1,17 @@
+.MissingpersonContainer{
+    padding: 15px 220px;
+    display: flex;
+    
+}
+.MPItems{
+    
+    padding-left: 10px;
+    flex: 2;
+}
+.imageUpload{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}

@@ -1,0 +1,10 @@
+.user-container{
+    display: flex;
+}
+.user-detail{
+    background-color: rgba(154, 154, 154, 0.5);
+    padding: 15px;
+    width: 400px;
+    border-radius: 15px;
+
+}

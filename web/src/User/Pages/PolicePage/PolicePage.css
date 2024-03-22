@@ -1,0 +1,9 @@
+.policePagecontent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 220px;
+  justify-content: center;
+}
+.PolicePageTitle{
+    padding: 10px 220px;
+}

@@ -1,0 +1,53 @@
+.tRegister {
+  height: 100vh;
+  display: flex;
+  background-image: url(../../assets/images/background1.png);
+  background-size: contain;
+
+  .tcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tRegisterCard {
+      display: flex;
+
+      height: 500px;
+
+      .tregisterLeft {
+        flex: 1;
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        padding: 20px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        .tregisterText {
+          color: #333;
+          h1 {
+            font-size: 140px;
+            color: #333;
+          }
+          h6 {
+            font-size: 15px;
+            font-family: "Roboto Mono", monospace;
+            display: flex;justify-content: center;
+            color: #333;
+          }
+        }
+      }
+      .registerRight {
+        flex: 2;
+        border: aquamarine 5px solid;
+        border-start-end-radius: 15px;
+        border-end-end-radius: 15px;
+        background: rgba(255, 255, 255, 0.8);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(4px); 
+       
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.SubCaseType{
+    padding: 10px 220px;
+}
+.input{
+    width: 300px;
+
+}
+.form{
+   display: flex;
+   justify-content: center; 
+   padding: 20px;
+}
+.btn{
+    display: flex;justify-content: center;
+    padding: 20px;  
+}

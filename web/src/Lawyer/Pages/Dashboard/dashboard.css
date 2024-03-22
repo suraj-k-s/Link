@@ -1,0 +1,113 @@
+.Dashboard .hero {
+  height: 630px;
+  padding: 30px 255px;
+  display: flex;
+  align-items: center;
+}
+
+.Dashboard .hero .left {
+  width: 40vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.Dashboard .hero .left .heroText {
+  font-weight: 900;
+  font: 4em sans-serif;
+}
+
+.Dashboard .hero .right {
+
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.Dashboard .hero .right video  {
+  width: 700px;
+  z-index: -1;
+  padding: 20px;
+}
+
+.Dashboard main .services {
+  padding: 10px 20px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-evenly ;
+  flex-wrap: wrap;
+  padding: 20px 220px;
+}
+
+.Dashboard main .services .service {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.Dashboard main .services .service .serviceContainer {
+  border: white 2px solid;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.Dashboard main .services .service .serviceContainer:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Dashboard main .services .service .serviceContainer .serviceTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.Dashboard main .services .service .serviceContainer img {
+  max-width: 250px;
+}
+
+.Dashboard article {
+  padding: 20px 220px;
+}
+
+.Dashboard .articleHeading {
+  padding: 50px;
+}
+
+.Dashboard .articleContent {
+  text-align: justify;
+  padding: 50px;
+}
+
+.card-client {
+  background: aquamarine;
+  width: 13rem;
+  height: 13rem;
+  padding: 25px;
+  border: 4px solid #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.card-client:hover {
+  transform: translateY(-5px);
+}
+
+.Service-picture img {
+  width: 160px;
+}
+
+.name-client {
+  margin: 0;
+  color: black;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+

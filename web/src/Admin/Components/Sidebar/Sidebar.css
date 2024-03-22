@@ -1,0 +1,89 @@
+.Sidebar {
+  flex: 1;
+  padding: 15px;
+  background-color: #f3f3f3;
+  min-height: 95vh;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid gray;
+    .notificatioIcon {
+      font-weight: 100;
+    }
+    .left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      span {
+        background-color: #19bef0;
+        width: 13px;
+        height: 13px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: #f3f3f3;
+        position: absolute;
+        top: 11px;
+        right: -2px;
+      }
+    }
+    .right {
+      .user {
+        display: flex;
+        justify-content: center;
+        .logo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .logo {
+        padding: 0px 10px;
+        img {
+          width: 45px;
+          height: 45px;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+  .middle {
+    .card {
+      display: flex;
+      justify-content: space-between;
+      padding: 25px;
+      border-radius: 15px;
+      background-color: rgb(255, 255, 255);
+      margin: 10px 0px;
+      .cardcontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        .logo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .bottom {
+    
+    .cardMiddle {
+      background-color: #ffffff;
+      height: 250px;
+      border-radius: 15px;
+      
+      .pro {
+        color: #1e90ff;
+        font-weight: bolder;
+      }
+    }
+  }
+}

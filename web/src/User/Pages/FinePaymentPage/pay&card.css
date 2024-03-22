@@ -1,0 +1,44 @@
+.bill {
+  background-color: #e2e2e2;
+  min-width: 340px;
+  border-radius: 10px;
+}
+.bill-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.bill-body {
+  padding: 20px;
+}
+.card {
+  display: flex;
+}
+.display {
+  padding: 20px;
+}
+.inputCardFiles {
+  padding: 20px;
+}
+.button {
+  padding: 5px;
+}
+.input {
+  padding: 5px;
+ 
+}
+.inputcvv{
+  display: flex;
+  padding: 5px;
+  .inp{
+    padding-right: 35px;
+  }
+ 
+  input{
+    width: 100px;
+    
+  }
+}

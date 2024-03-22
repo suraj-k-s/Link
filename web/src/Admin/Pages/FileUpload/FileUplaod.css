@@ -1,0 +1,23 @@
+.FileUplaod{
+    display: flex;
+    justify-content: center;
+   
+    .fileContainer{
+       
+        header{
+            display: flex;
+            justify-content: center;
+        }
+        .Filecontent{
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            .input{
+                div{
+                    padding: 10px;
+                    display: flex;justify-content: center;
+                }
+            }
+        }
+    }
+}

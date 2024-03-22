@@ -1,0 +1,46 @@
+name: link
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  
+  cloud_firestore: ^4.15.5
+  delayed_display: ^2.0.0
+  file_picker: ^6.1.1
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.25.4
+  firebase_storage: ^11.6.6
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  fluttertoast: ^8.2.4
+  image_picker: ^1.0.7
+  lottie: ^2.7.0
+  progress_dialog_null_safe: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/Dashboard/
+    - assets/images/Permit/
+    - assets/images/Lawyer/
+    - assets/images/Missing/
+    - assets/images/Fine/
+    - assets/images/Case/
+    - assets/images/Emergency/
+    
+
+
+
+    

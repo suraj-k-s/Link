@@ -1,0 +1,29 @@
+.caseVieContainer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.CaseContainer {
+  min-height: 45em;
+  width: 80%;
+  margin: 25px;
+  border: solid 1px;
+}
+.caseHeader {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+.pIcon img{
+    max-height: 200px;
+}
+
+.hr{
+    background-color: rgb(121, 121, 121);
+    height: 0.5px;
+    margin: 10px 30px;
+}
+.caseDetails{
+    margin: 30px;
+}

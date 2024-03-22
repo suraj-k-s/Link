@@ -1,0 +1,21 @@
+.Title{
+    display: flex;
+    padding: 20px 25px;
+}
+.acepted-cases{
+   
+    justify-content: center;
+}
+.acepted-cases-list{
+    padding: 15px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(154, 154, 154, 0.5);
+}
+.cid{
+    background-color: aqua;
+    width: 300px;
+    padding: 15px;
+    border-top: dashed 1px black;
+}

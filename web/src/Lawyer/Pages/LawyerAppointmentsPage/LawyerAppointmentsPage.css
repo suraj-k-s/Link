@@ -1,0 +1,13 @@
+
+.appoinment-list {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(154, 154, 154, 0.5);
+  width: 300px;
+}
+.appoinment-button {
+  padding-top: 30px;
+
+  display: flex;
+  justify-content: space-around;
+}

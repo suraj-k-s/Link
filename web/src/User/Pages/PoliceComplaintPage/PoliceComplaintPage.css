@@ -1,0 +1,35 @@
+.PoliceComplaintContainer{
+    padding: 10px 220px;
+    display: flex;
+}
+.complaintitem{
+    
+    flex: 2;
+}
+.upload{
+    
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PhoneInput,
+.PhoneInputCountry{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.PhoneInput{
+    padding-bottom: 10px;
+    justify-content: end;
+    
+}
+.PhoneInputCountryIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PhoneInputCountryIconImg{
+    width: 80px;
+    
+}

@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard {
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-container {
+    border: white 2px solid;
+    border-radius: 15px;
+    padding: 40px;
+    transition: box-shadow 0.3s ease;
+}
+
+.service-container:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.service-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.service-picture img {
+    max-width: 150px;
+    height: auto;
+}
+
+.content {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}
